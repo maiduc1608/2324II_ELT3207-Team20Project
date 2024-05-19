@@ -197,11 +197,5 @@ void DHT_Display(void){
 	LCD_I2C_Location(1,0);
 	LCD_I2C_Write_String(h);
 	free(h);
-//	
-//	LCD_I2C_Clear();
-//			LCD_I2C_Location(0, 0);  // Set cursor position to line 0, column 0
-//			LCD_I2C_Write_String("anh em code");
-//			LCD_I2C_Location(1, 0);  
-//			LCD_I2C_Write_String("thanh ghi");
 
 }
